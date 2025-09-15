@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* khoi phuc co chu mac dinh */
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a{
+    text-decoration: none;
+}
+.main-content{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a{
+    color: black;
+    font-size: 1.6rem;
+    /* background-color: blue; */
+    padding: 8px 21px;
+
+}
+.nav a:hover{
+    color: black;
+    text-shadow: 1px 0 0 black;
+}
+
+/* Header */
+.header .body{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 10px;
+
+}
+
+.header.fixed{
+    position: sticky;
+    top: -5px;
+}
+
+.nav ul{
+    display: flex;
+    
+    
+}
+.header{
+   background: white;
+}
+.nav{
+    margin-left: auto;
+}
+
+
+/* Hero */
+
+.hero .main-content .body{
+    display: flex;
+}
+
+.hero .content-block p{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 5rem;
+    width: 100%;
+}
+
+.hero .body{
+    background-color: rgb(243, 235, 235);
+}
+
+
+/* Lastest */
+.lastest{
+    margin-top: 20px;
+}
+.lastest .main-content .body{
+    display: flex;
+}
+
+.lastest .content-block h2{
+    font-size: 7rem;
+
+}
+.lastest .content-block p{
+    font-size: 2rem;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.lastest a{
+    text-decoration: underline;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.lastest a:hover{
+    color: black;
+    text-shadow: 1px 0 0 black;
+    cursor: pointer;
+}
+
+#datetime{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* footer */
+.footer .body{
+    display: flex;
+}
+
+.footer .tongquan p{
+    text-align: center;
+
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.footer .lienhe{
+    margin-left: 300px;
+    margin-right: 10px;
+}
+.footer .title{
+    margin-top: 50px;
+    border-bottom: 5px;
+    border-color: black;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.footer p{
+    margin-top: 10px;
+}
